@@ -1,0 +1,20 @@
+section {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+.sec {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+.parent {
+  height: 500px;
+  width: 500px;
+  background-color: brown;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
