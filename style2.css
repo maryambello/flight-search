@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #a6ccee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  margin-right: 200px;
+}
+.p {
+  margin-right: 50%;
+  margin-top: 20%;
+  position: fixed;
+}
+
+.form {
+  background-color: white;
+  color: black;
+  width: 360px;
+  height: 337px;
+  border-radius: 5px;
+  display: block;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 100px;
+}
+.tp {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.form-group {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group input {
+  background-color: rgb(231, 225, 225);
+  color: black;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  outline: none;
+  width: 92%;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  box-sizing: border-box;
+  padding-left: 35px;
+}
+
+.input2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input2 .form-group input {
+  width: 85%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(22, 22, 43);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  width: 360px;
+  height: 53px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.form-input {
+  width: 100%;
+  height: 30px;
+}
+
+.form-group img {
+  width: 20px;
+  position: absolute;
+  top: 7px;
+  left: 25px;
+}
+.input2 .form-group img {
+  position: absolute;
+  top: 20px;
+}
