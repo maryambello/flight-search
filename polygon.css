@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(23, 18, 65);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 50%, 0% 100%);
+  margin: 50px;
+}
+.box2 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(70, 85, 133);
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%, 100% 100%);
+  margin: 50px;
+  position: absolute;
+}
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+}

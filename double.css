@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+}
+.left img {
+  height: 100%;
+  width: 90%;
+}
+.right {
+  width: 60%;
+  height: 100%;
+  background-color: lightblue;
+}
+.right img {
+  height: 100%;
+  width: 100%;
+}

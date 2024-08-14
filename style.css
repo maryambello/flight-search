@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(55, 55, 177);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.child1 {
+  color: white;
+  margin-left: 50px;
+}
+.btn {
+  margin: 10px;
+}
+
+.child2 img {
+  width: 400px;
+  height: 400px;
+  padding: 3px;
+  margin: 100px;
+}

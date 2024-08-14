@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(218, 181, 89);
+  color: white;
+  font-weight: 200;
+  font-size: x-large;
+}
+.left img {
+  border-radius: 50%;
+  margin-bottom: 70px;
+}
+.left div {
+  margin: 50px;
+  padding: 30px;
+}
+.left p {
+  padding-top: 25px;
+}
+.left button {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+.right {
+  width: 60%;
+  height: 100%;
+  background-color: lightblue;
+}
+.right img {
+  height: 100%;
+  width: 100%;
+}
