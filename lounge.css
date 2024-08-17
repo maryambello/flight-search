@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "maryam";
+  src: url("./font/Mulish-VariableFont_wght.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +14,7 @@ html {
 body {
   display: flex;
   height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .left {
@@ -36,6 +42,7 @@ body {
   background-color: white;
   border: none;
   border-radius: 5px;
+  font-family: "maryam";
 }
 .right {
   width: 60%;
@@ -45,4 +52,7 @@ body {
 .right img {
   height: 100%;
   width: 100%;
+}
+.mulish {
+  font-family: "maryam";
 }
